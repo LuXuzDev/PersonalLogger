@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+
+		<!-- Información del paquete -->
+		<PackageId>LuxuzDev.PersonalLogger</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Angel Hernández</Authors>
+		<Company>LuxuzDev</Company>
+		<Description>Logger personalizable que abre consola separada y guarda archivos de logs</Description>
+		<PackageTags>logging logger console file logs</PackageTags>
+		<RepositoryUrl>https://github.com/LuxuzDev/PersonalLogger</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Nullable>enable</Nullable>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
+
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
