@@ -8,7 +8,7 @@
 		<Version>1.0.0</Version>
 		<Authors>Angel Hernández</Authors>
 		<Company>LuxuzDev</Company>
-		<Description>Logger personalizable que abre consola separada y guarda archivos de logs</Description>
+		<Description>Logger personal con consola PowerShell independiente, colores por tipo y archivo UTF-8.</Description>
 		<PackageTags>logging logger console file logs</PackageTags>
 		<RepositoryUrl>https://github.com/LuxuzDev/PersonalLogger</RepositoryUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -17,12 +17,12 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>icon.png</PackageIcon>
 
-		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\" />
-		<None Include="icon.png" Pack="true" PackagePath="\" />
+		<None Include="../README.md" Pack="true" PackagePath="\" />
+		<None Include="../icon.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
+
 
 </Project>
